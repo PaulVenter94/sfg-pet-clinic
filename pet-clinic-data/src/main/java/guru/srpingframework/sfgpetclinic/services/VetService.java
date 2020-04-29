@@ -1,6 +1,5 @@
 package guru.srpingframework.sfgpetclinic.services;
 
-import guru.srpingframework.sfgpetclinic.model.Owner;
 import guru.srpingframework.sfgpetclinic.model.Vet;
 
 import java.util.Set;
@@ -8,7 +7,7 @@ import java.util.Set;
 public interface VetService {
     Vet findById(Long id);
 
-    Vet save(Vet owner);
+    Vet save(Vet vet);
 
     Set<Vet> findAll();
 }
